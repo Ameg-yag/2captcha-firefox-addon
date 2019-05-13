@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	 
+	<title>Uzantı Seçenekleri</title>
+	<meta charset="UTF-8"/>
+	<style>
+
+		label {
+			display: block;
+			padding-left: 15px;
+			text-indent: -15px;
+			color: white;
+		}
+		body{
+			margin: 12px;
+			background-color:  #232323;
+		}
+.form-control {
+ width:50%;
+ height:34px;
+ padding:1px 12px;
+ font-size:14px;
+ line-height:1.42857143;
+ color:#555;
+ background-color:#fff;
+ background-image:none;
+ -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+ box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+ -webkit-transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+ -o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+ transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+		input[type="text"] {
+  background: #000;
+  color:#c8c8c8;
+  border: none;
+  border-radius: 0;
+  height: 40px;
+		}
+		input[type="checkbox"] {
+			width: 13px;
+			height: 13px;
+			padding: 0;
+			margin:0;
+			vertical-align: bottom;
+			position: relative;
+			top: -1px;
+			*overflow: hidden;
+		}
+		h2{
+			padding: 0px;
+			margin: 0px;
+			color:#069;
+		}
+		img{
+			height: 56px;
+			width: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+		}
+	
+		form label{
+			font-weight:bold;
+		}
+		h3{
+			color: white;
+		}
+		div{
+			
+			background-color: #232323;
+		}
+		form {
+			background-color: #232323;
+			margin:10px; 
+		}
+		.button {
+					width: 100%;
+					margin-bottom: 0;
+					font-weight: normal;
+					text-align: center;
+					vertical-align: middle;
+					-ms-touch-action: manipulation;
+					touch-action: manipulation;
+					cursor: pointer;
+			   color: #fff;
+					background: #b7ca33;
+					border: 1px solid transparent;
+					white-space: nowrap;
+					padding: 6px 12px;
+					font-size: 14px;
+					line-height: 1.42857143;
+					border-radius: 4px;
+					-webkit-user-select: none;
+					-moz-user-select: none;
+					-ms-user-select: none;
+					user-select: none;
+		}
+
+		.button:hover {background-color: #b7ca331;}
+
+		.button:active {
+		  background-color: gray;
+		  box-shadow: 0 2px #666;
+		  transform: translateY(2px);
+		}
+		
+</style>
+</head>
+<body>
+
+<img src="/icons/logo.png">
+
+<div>
+
+	<form style="background-color:#232323;">
+	
+		
+		<h3>Ayarları Değiştir</h3>
+		<label>API Anahtarı : <input class="form-control" type="text" id="apiKey" /></label><br />
+		<label>Etkinleştir : <input type="checkbox" id="isEnabled" /></label><br />
+		<input type="button" value="Değişiklikleri Kaydet" id="saveButton"  class="button" />
+		
+	</form>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

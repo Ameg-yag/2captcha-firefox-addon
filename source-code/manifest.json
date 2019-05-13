@@ -1,0 +1,37 @@
+{
+	"manifest_version": 2,
+	"name": "2Captcha ReCaptcha Tanımlayıcı",
+	"version": "1.1",
+	"description": "2captcha API desteği ile ReCaptcha çözümleme",
+	"icons": {
+		"48": "icons/icon_default.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"all_frames": true,
+			"js": ["content/main.js"]
+		}
+	],
+	"background": {
+		"scripts": ["background/main.js"]
+	},
+	"options_ui": {
+		"page": "options/main.html",
+		"browser_style": true
+	},
+	"browser_action": {
+		"default_popup": "options/main.html",
+		"browser_style": true,
+		"default_icon": {
+			"16": "icons/icon_default.png"
+		}
+	},
+	"web_accessible_resources": ["icons/icon.png", "icons/check.png"],
+	"permissions": ["storage", "webRequest", "https://2captcha.com/*"],
+	"applications": {
+		"gecko": {
+			"id": "info@2captcha.com"
+		}
+	}
+}
