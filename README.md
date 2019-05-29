@@ -28,6 +28,6 @@ This extension unsigned. Firefox will allow you to override the setting to enfor
 ![Add-on Options](https://raw.githubusercontent.com/yasinyilmaz/2captcha-firefox-addon/master/README-img/2capctcha-firefox-addon.png?token=AJAW6P2UXB4HJPMUGFUC2IK44KUVS)
 
 
-Credit: @nowon48 (Extension created by this person. Thanks!) 
+# Credit: @nowon48 (Extension created by this person. Thanks!) 
 
 Original repository (source code): https://github.com/nowon48/2Captcha-ReCaptcha-Solver
